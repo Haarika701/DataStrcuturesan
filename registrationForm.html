@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      form {
+        padding: 10px;
+      }
+      .form-row {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 75%;
+      }
+
+      label {
+        flex: auto;
+      }
+
+      button.submit {
+        background-color: chartreuse;
+        display: inline-flex;
+        margin-left: 10%;
+      }
+
+      button.cancel {
+        background-color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <li class="form-row">
+        <label class="nameLabel"> Name: </label>
+        <input clas="nameInput" type="text" />
+      </li>
+      <li class="form-row">
+        <label class="ageLabel"> Age: </label>
+        <input clas="ageInput" type="number" />
+      </li>
+      <li class="form-row">
+        <label class="surnameLabel"> SurName: </label><br />
+        <input class="surnameInput" type="text" />
+      </li>
+
+      <button class="cancel">Cancel</button>
+      <button class="submit">Submit</button>
+    </form>
+  </body>
+</html>
